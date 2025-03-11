@@ -28,7 +28,7 @@ const LoginScreen = () => {
   useEffect(() => {
     GoogleSignin.configure({
       webClientId:
-        '여러분들의 Web Client ID',
+        '519181576653-cjs3nq90v6bsdee7d72mlkkov3f70753.apps.googleusercontent.com',
     });
   }, []);
 

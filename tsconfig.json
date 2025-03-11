@@ -1,3 +1,9 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,                // ✅ 추가 (기본값 false → true)
+    "allowSyntheticDefaultImports": true,   // ✅ 추가 (기본값 false → true)
+    "skipLibCheck": true                    // ✅ 타입 검사 건너뛰기 (필요 시)
+  }
 }
