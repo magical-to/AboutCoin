@@ -159,7 +159,7 @@ const LoginScreen = () => {
               }}
             />
           </Tab.Navigator>
-        </NavigationContainer> // 로그인 후 보여줄 화면
+        </NavigationContainer>
       ) : (
         <View>
           <Image
